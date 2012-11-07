@@ -1,7 +1,7 @@
 /* To change themes. Un-comment the theme you would like to use. */
 
 @import "bootstrap-engineauth.min.css";
-/*@import "bootstrap-default.min.css";*/
+@import "bootstrap-default.css";
 /*@import "bootstrap-sapling.css";*/
 
 @import "bootstrap-responsive.min.css";
@@ -41,7 +41,7 @@ code, pre {
 }
 
 span.pre {
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     color: #007000;
 }
 
@@ -98,12 +98,12 @@ a.headerlink:hover {
 }
 
 tr > td:first-child {
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     color: #007000;
 }
 
 tr > td:nth-child(2) {
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     color: #4070A0;
 }
 

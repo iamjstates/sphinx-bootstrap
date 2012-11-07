@@ -81,7 +81,8 @@
         <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
     {%- endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css"/>
     <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css"/>
     {%- for cssfile in css_files %}
@@ -273,16 +274,6 @@
             {%- if last_updated %}
                 {% trans last_updated=last_updated|e %}Last updated
                     on {{ last_updated }}.{% endtrans %}
-            {%- endif %}
-            {%- if show_sphinx %}
-                {% trans sphinx_version=sphinx_version|e %}Created using <a
-                        href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}
-                    .{% endtrans %}
-                Theme <a href="https://github.com/scotch/sphinx-bootstrap">Sphinx-Bootstrap</a>
-                adapted from
-                <a href="http://twitter.github.com/bootstrap/">Twitter's
-                    Bootstrap</a> by <a href="http://www.scotchmedia.com">Scotch
-                Media</a>
             {%- endif %}
         </div>
     </div>
