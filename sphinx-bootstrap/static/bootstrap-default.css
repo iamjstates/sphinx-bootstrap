@@ -149,6 +149,9 @@ body {
   color: #333333;
   background-color: rgb(251,251,251);
   font-family: 15px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing:subpixel-antialiased;
+  text-rendering:optimizeLegibility;
 }
 a {
   color: #0088cc;
