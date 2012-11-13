@@ -598,7 +598,8 @@ h2.default{font-size: 2.2852rem;letter-spacing: -0.0714em;font-size: 2.2852em;fo
 h3.default{font-size: 1.714rem;letter-spacing: -0.0714em;font-size: 1.714em;font-weight: 900;}
 h4.default{font-size: 1.4284rem;letter-spacing: -0.0714em;font-size: 1.4284em;font-weight: 900;}
 time.default{font-size: 0.8572rem;font-size: 0.8572em;text-transform: uppercase;font-weight: 900;}
-p.default{font-size: 1.0714rem;font-size: 1.0714em;}
+p.leading{font-size: 1.0714rem;font-size: 1.0714em;font-weight: 900;}
+p.copy{font-size: 1.0714rem;font-size: 1.0714em;}
 span.helper{color: rgb(150,150,150);}
 .page-header {
   padding-bottom: 9px;
